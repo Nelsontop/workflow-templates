@@ -27,4 +27,6 @@
 - lint：
 - typecheck：
 - test：
+- gstack regression：
+- gstack preflight：
 - commit：
