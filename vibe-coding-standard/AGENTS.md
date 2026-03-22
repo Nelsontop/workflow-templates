@@ -40,6 +40,21 @@ vibe-coding-standard/
 - `reference/`
   团队和 agent 需要复用的规则样板，例如主题、接口约定、编码规范。
 
+## 文档生成约定
+
+生成或大改 `PRD.md` 与 `ARCH.md` 时，不要直接自由发挥，优先使用 gstack 里的规划类技能完成首稿，再人工收敛。
+
+- `PRD.md`
+  优先使用 `plan-ceo-review` 做范围澄清、目标收敛、版本取舍。
+- `ARCH.md`
+  优先使用 `plan-eng-review` 做架构边界、数据流、模块职责、验证与风险梳理。
+
+补充约定：
+
+- 如果产品强依赖界面与视觉系统，生成 `PRD.md` 前后可补充使用 `design-consultation`
+- 如果是基于现有线上产品补全文档，可补充使用 `plan-design-review`
+- 技能产出是输入材料，不替代最终文档责任；最终版本仍要落回 `PRD.md` 与 `ARCH.md`
+
 ## 对 Agent 的核心约束
 
 ### 1. 先读文档，再动代码
