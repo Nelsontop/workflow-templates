@@ -2,14 +2,16 @@
 
 ## 当前阶段
 
-- 当前目标：为模板增加可动态检索的外部参考快照与索引
-- 当前切片：引入 `reference/agency` 快照、索引脚本与后备加载规则
-- 允许修改的文件：`reference/agency/**`、`tests/reference/agency/**`、`AGENTS.md`、`CLAUDE.md`、`ARCH.md`、`project_state.md`
+- 当前目标：清理不再需要的模板参考文件
+- 当前切片：删除 `reference/theme.ts` 并同步目录文档
+- 允许修改的文件：`reference/theme.ts`、`AGENTS.md`、`project_state.md`
 - 当前端别：前端
 - 是否已完成前端确认：不适用
 
 ## 已完成
 
+- 删除 `reference/theme.ts`
+- 同步更新 `AGENTS.md` 目录结构，移除 `theme.ts` 引用
 - 新增 `reference/agency/upstream/`，保存筛选后的 agency Markdown 快照
 - 新增 `reference/agency/build_index.py`，支持索引生成与关键词查询
 - 新增 `reference/agency/index.json` 与 `reference/agency/README.md`
@@ -29,10 +31,10 @@
 
 ## 最近一次验证
 
-- 手动验证：已检查快照目录、README 和索引输出结构
+- 手动验证：已检查 `theme.ts` 引用仅剩目录说明，并已同步移除
 - lint：未运行，当前仓库无统一 lint 入口
 - typecheck：未运行，当前切片主要为文档和 Python 脚本
-- test：`python3 -m unittest tests/reference/agency/test_build_index.py`
+- test：未运行，本次切片为文件删除与文档同步
 - regression：已用生成后的 `index.json` 抽查字段结构
 - preflight：不适用
 - commit：未提交

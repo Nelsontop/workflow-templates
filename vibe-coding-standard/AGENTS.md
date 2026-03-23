@@ -48,7 +48,6 @@ vibe-coding-standard/
     │   ├── build_index.py
     │   ├── index.json
     │   └── upstream/
-    └── theme.ts
 ```
 
 ## 文件职责
