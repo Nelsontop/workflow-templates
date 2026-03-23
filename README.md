@@ -35,13 +35,11 @@
 - 先验证，再提交
 - 文档状态必须与代码同步
 
-这套模板默认建议结合 gstack 的规划与 QA 技能使用：
+这套模板默认建议按交付物类型和实现形态选择合适技能，并把最终结果沉淀回模板文档：
 
-- 需求收敛：`plan-ceo-review`
-- 架构收敛：`plan-eng-review`
-- 回归测试：`qa` / `qa-only`
-- 生产前烟雾验证：`browse`
-- 设计检查：`qa-design-review` / `plan-design-review`
+- 交付物导向：`frontend-dev`、`gif-sticker-maker`、`minimax-docx`、`minimax-pdf`、`minimax-xlsx`、`pptx-generator`
+- 实现形态导向：`frontend-dev`、`fullstack-dev`、`android-native-dev`、`ios-application-dev`、`shader-dev`
+- 需求与架构的最终边界，仍以 `PRD.md` 和 `ARCH.md` 为准，不以技能输出直接替代文档
 
 ## 目录结构
 

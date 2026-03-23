@@ -2,12 +2,21 @@
 
 ## 生成约定
 
-- 首稿优先使用 gstack 的 `plan-eng-review`
-- 目标是锁定技术边界、模块职责、数据流、验证方式和主要风险
-- 如果需求范围还不稳定，可先配合 `plan-ceo-review` 收敛范围，再落架构
+- 首稿应先锁定技术边界、模块职责、数据流、验证方式和主要风险
+- 如果需求范围还不稳定，应先收敛范围，再落架构
 - 最终内容必须沉淀回本文件，不能只停留在聊天记录
 - 未写入本文件的重大技术决策，默认不直接实施
-- 回归测试与生产前验证方案，也要在本文件中明确写清对应的 gstack 技能和触发时机
+- 回归测试与生产前验证方案，也要在本文件中明确写清触发时机和执行方式
+
+## 实现技能参考
+
+| 技能 | 适用实现形态 | 适用场景 |
+| --- | --- | --- |
+| `frontend-dev` | Web 前端 | 需要构建高质量页面、动效系统、媒体资产集成和强视觉表达的前端项目时使用 |
+| `fullstack-dev` | 全栈应用 | 需要同时设计后端架构与前后端集成，包括 API、认证、配置、错误处理、文件上传或实时能力时使用 |
+| `android-native-dev` | Android 原生应用 | 需要基于 Kotlin / Compose、Material Design 3、无障碍和构建配置开发 Android 应用时使用 |
+| `ios-application-dev` | iOS 应用 | 需要基于 UIKit、SnapKit 或 SwiftUI 构建界面，并遵循 Apple HIG、Dynamic Type、Dark Mode 和无障碍规范时使用 |
+| `shader-dev` | 实时图形 / GLSL 效果 | 需要实现 ShaderToy 兼容的 GLSL 效果、程序化图形、粒子、流体或后处理效果时使用 |
 
 ---
 
@@ -101,9 +110,9 @@ your-project/
 
 - 单元/集成测试：
 - lint 与类型检查：
-- 回归测试使用的 gstack 技能：`qa` / `qa-only`
-- 生产前 smoke test 使用的 gstack 技能：`browse`
-- 视觉与交互检查使用的 gstack 技能：`qa-design-review` / `plan-design-review`
+- 回归测试方式：
+- 生产前 smoke test 方式：
+- 视觉与交互检查方式：
 - 触发时机：
 
 ## 发布与回滚
