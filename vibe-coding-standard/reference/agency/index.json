@@ -1,0 +1,2732 @@
+{
+  "source": "msitarzewski/agency-agents",
+  "activation_policy": {
+    "priority": 2,
+    "mode": "fallback_only",
+    "skip_when_explicit_skill_selected": true
+  },
+  "documents": [
+    {
+      "id": "README",
+      "title": "🎭 The Agency: AI Specialists Ready to Transform Your Workflow",
+      "category": "root",
+      "path": "README.md",
+      "keywords": [
+        "agency",
+        "ai",
+        "specialists",
+        "transform",
+        "workflow",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "academic-academic-anthropologist",
+      "title": "Anthropologist Agent Personality",
+      "category": "academic",
+      "path": "academic/academic-anthropologist.md",
+      "keywords": [
+        "anthropologist",
+        "personality",
+        "academic",
+        "academic-anthropologist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "academic-academic-geographer",
+      "title": "Geographer Agent Personality",
+      "category": "academic",
+      "path": "academic/academic-geographer.md",
+      "keywords": [
+        "geographer",
+        "personality",
+        "academic",
+        "academic-geographer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "academic-academic-historian",
+      "title": "Historian Agent Personality",
+      "category": "academic",
+      "path": "academic/academic-historian.md",
+      "keywords": [
+        "historian",
+        "personality",
+        "academic",
+        "academic-historian"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "academic-academic-narratologist",
+      "title": "Narratologist Agent Personality",
+      "category": "academic",
+      "path": "academic/academic-narratologist.md",
+      "keywords": [
+        "narratologist",
+        "personality",
+        "academic",
+        "academic-narratologist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "academic-academic-psychologist",
+      "title": "Psychologist Agent Personality",
+      "category": "academic",
+      "path": "academic/academic-psychologist.md",
+      "keywords": [
+        "psychologist",
+        "personality",
+        "academic",
+        "academic-psychologist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "design-design-brand-guardian",
+      "title": "Brand Guardian Agent Personality",
+      "category": "design",
+      "path": "design/design-brand-guardian.md",
+      "keywords": [
+        "brand",
+        "guardian",
+        "personality",
+        "design",
+        "design-brand-guardian"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "design-design-image-prompt-engineer",
+      "title": "Image Prompt Engineer Agent",
+      "category": "design",
+      "path": "design/design-image-prompt-engineer.md",
+      "keywords": [
+        "image",
+        "prompt",
+        "engineer",
+        "design",
+        "design-image-prompt-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "design-design-inclusive-visuals-specialist",
+      "title": "📸 Inclusive Visuals Specialist",
+      "category": "design",
+      "path": "design/design-inclusive-visuals-specialist.md",
+      "keywords": [
+        "inclusive",
+        "visuals",
+        "design",
+        "design-inclusive-visuals-specialist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "design-design-ui-designer",
+      "title": "UI Designer Agent Personality",
+      "category": "design",
+      "path": "design/design-ui-designer.md",
+      "keywords": [
+        "ui",
+        "designer",
+        "personality",
+        "design",
+        "design-ui-designer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "design-design-ux-architect",
+      "title": "ArchitectUX Agent Personality",
+      "category": "design",
+      "path": "design/design-ux-architect.md",
+      "keywords": [
+        "architectux",
+        "personality",
+        "design",
+        "design-ux-architect",
+        "ux",
+        "architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "design-design-ux-researcher",
+      "title": "UX Researcher Agent Personality",
+      "category": "design",
+      "path": "design/design-ux-researcher.md",
+      "keywords": [
+        "ux",
+        "researcher",
+        "personality",
+        "design",
+        "design-ux-researcher"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "design-design-visual-storyteller",
+      "title": "Visual Storyteller Agent",
+      "category": "design",
+      "path": "design/design-visual-storyteller.md",
+      "keywords": [
+        "visual",
+        "storyteller",
+        "design",
+        "design-visual-storyteller"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "design-design-whimsy-injector",
+      "title": "Whimsy Injector Agent Personality",
+      "category": "design",
+      "path": "design/design-whimsy-injector.md",
+      "keywords": [
+        "whimsy",
+        "injector",
+        "personality",
+        "design",
+        "design-whimsy-injector"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-ai-data-remediation-engineer",
+      "title": "AI Data Remediation Engineer Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-ai-data-remediation-engineer.md",
+      "keywords": [
+        "ai",
+        "data",
+        "remediation",
+        "engineer",
+        "engineering",
+        "engineering-ai-data-remediation-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-ai-engineer",
+      "title": "AI Engineer Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-ai-engineer.md",
+      "keywords": [
+        "ai",
+        "engineer",
+        "engineering",
+        "engineering-ai-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-autonomous-optimization-architect",
+      "title": "⚙️ Autonomous Optimization Architect",
+      "category": "engineering",
+      "path": "engineering/engineering-autonomous-optimization-architect.md",
+      "keywords": [
+        "autonomous",
+        "optimization",
+        "architect",
+        "engineering",
+        "engineering-autonomous-optimization-architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-backend-architect",
+      "title": "Backend Architect Agent Personality",
+      "category": "engineering",
+      "path": "engineering/engineering-backend-architect.md",
+      "keywords": [
+        "backend",
+        "architect",
+        "personality",
+        "engineering",
+        "engineering-backend-architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-code-reviewer",
+      "title": "Code Reviewer Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-code-reviewer.md",
+      "keywords": [
+        "code",
+        "reviewer",
+        "engineering",
+        "engineering-code-reviewer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-data-engineer",
+      "title": "Data Engineer Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-data-engineer.md",
+      "keywords": [
+        "data",
+        "engineer",
+        "engineering",
+        "engineering-data-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-database-optimizer",
+      "title": "🗄️ Database Optimizer",
+      "category": "engineering",
+      "path": "engineering/engineering-database-optimizer.md",
+      "keywords": [
+        "database",
+        "optimizer",
+        "engineering",
+        "engineering-database-optimizer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-devops-automator",
+      "title": "DevOps Automator Agent Personality",
+      "category": "engineering",
+      "path": "engineering/engineering-devops-automator.md",
+      "keywords": [
+        "devops",
+        "automator",
+        "personality",
+        "engineering",
+        "engineering-devops-automator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-embedded-firmware-engineer",
+      "title": "Embedded Firmware Engineer",
+      "category": "engineering",
+      "path": "engineering/engineering-embedded-firmware-engineer.md",
+      "keywords": [
+        "embedded",
+        "firmware",
+        "engineer",
+        "engineering",
+        "engineering-embedded-firmware-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-feishu-integration-developer",
+      "title": "Feishu Integration Developer",
+      "category": "engineering",
+      "path": "engineering/engineering-feishu-integration-developer.md",
+      "keywords": [
+        "feishu",
+        "integration",
+        "engineering",
+        "engineering-feishu-integration-developer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-frontend-developer",
+      "title": "Frontend Developer Agent Personality",
+      "category": "engineering",
+      "path": "engineering/engineering-frontend-developer.md",
+      "keywords": [
+        "frontend",
+        "personality",
+        "engineering",
+        "engineering-frontend-developer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-git-workflow-master",
+      "title": "Git Workflow Master Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-git-workflow-master.md",
+      "keywords": [
+        "git",
+        "workflow",
+        "master",
+        "engineering",
+        "engineering-git-workflow-master"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-incident-response-commander",
+      "title": "Incident Response Commander Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-incident-response-commander.md",
+      "keywords": [
+        "incident",
+        "response",
+        "commander",
+        "engineering",
+        "engineering-incident-response-commander"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-mobile-app-builder",
+      "title": "Mobile App Builder Agent Personality",
+      "category": "engineering",
+      "path": "engineering/engineering-mobile-app-builder.md",
+      "keywords": [
+        "mobile",
+        "app",
+        "personality",
+        "engineering",
+        "engineering-mobile-app-builder"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-rapid-prototyper",
+      "title": "Rapid Prototyper Agent Personality",
+      "category": "engineering",
+      "path": "engineering/engineering-rapid-prototyper.md",
+      "keywords": [
+        "rapid",
+        "prototyper",
+        "personality",
+        "engineering",
+        "engineering-rapid-prototyper"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-security-engineer",
+      "title": "Security Engineer Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-security-engineer.md",
+      "keywords": [
+        "security",
+        "engineer",
+        "engineering",
+        "engineering-security-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-senior-developer",
+      "title": "Developer Agent Personality",
+      "category": "engineering",
+      "path": "engineering/engineering-senior-developer.md",
+      "keywords": [
+        "personality",
+        "engineering",
+        "engineering-senior-developer",
+        "senior"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-software-architect",
+      "title": "Software Architect Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-software-architect.md",
+      "keywords": [
+        "software",
+        "architect",
+        "engineering",
+        "engineering-software-architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-solidity-smart-contract-engineer",
+      "title": "Solidity Smart Contract Engineer",
+      "category": "engineering",
+      "path": "engineering/engineering-solidity-smart-contract-engineer.md",
+      "keywords": [
+        "solidity",
+        "smart",
+        "contract",
+        "engineer",
+        "engineering",
+        "engineering-solidity-smart-contract-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-sre",
+      "title": "SRE (Site Reliability Engineer) Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-sre.md",
+      "keywords": [
+        "sre",
+        "site",
+        "reliability",
+        "engineer",
+        "engineering",
+        "engineering-sre"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-technical-writer",
+      "title": "Technical Writer Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-technical-writer.md",
+      "keywords": [
+        "technical",
+        "writer",
+        "engineering",
+        "engineering-technical-writer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-threat-detection-engineer",
+      "title": "Threat Detection Engineer Agent",
+      "category": "engineering",
+      "path": "engineering/engineering-threat-detection-engineer.md",
+      "keywords": [
+        "threat",
+        "detection",
+        "engineer",
+        "engineering",
+        "engineering-threat-detection-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "engineering-engineering-wechat-mini-program-developer",
+      "title": "WeChat Mini Program Developer Agent Personality",
+      "category": "engineering",
+      "path": "engineering/engineering-wechat-mini-program-developer.md",
+      "keywords": [
+        "wechat",
+        "mini",
+        "program",
+        "personality",
+        "engineering",
+        "engineering-wechat-mini-program-developer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "examples-README",
+      "title": "Examples",
+      "category": "examples",
+      "path": "examples/README.md",
+      "keywords": [
+        "examples",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "examples-nexus-spatial-discovery",
+      "title": "Nexus Spatial: Full Agency Discovery Exercise",
+      "category": "examples",
+      "path": "examples/nexus-spatial-discovery.md",
+      "keywords": [
+        "nexus",
+        "spatial",
+        "full",
+        "agency",
+        "discovery",
+        "exercise",
+        "examples",
+        "nexus-spatial-discovery"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "examples-workflow-book-chapter",
+      "title": "Workflow Example: Book Chapter Development",
+      "category": "examples",
+      "path": "examples/workflow-book-chapter.md",
+      "keywords": [
+        "workflow",
+        "example",
+        "book",
+        "chapter",
+        "development",
+        "examples",
+        "workflow-book-chapter"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "examples-workflow-landing-page",
+      "title": "Multi-Agent Workflow: Landing Page Sprint",
+      "category": "examples",
+      "path": "examples/workflow-landing-page.md",
+      "keywords": [
+        "multi-agent",
+        "workflow",
+        "landing",
+        "page",
+        "sprint",
+        "examples",
+        "workflow-landing-page"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "examples-workflow-startup-mvp",
+      "title": "Multi-Agent Workflow: Startup MVP",
+      "category": "examples",
+      "path": "examples/workflow-startup-mvp.md",
+      "keywords": [
+        "multi-agent",
+        "workflow",
+        "startup",
+        "mvp",
+        "examples",
+        "workflow-startup-mvp"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "examples-workflow-with-memory",
+      "title": "Multi-Agent Workflow: Startup MVP with Persistent Memory",
+      "category": "examples",
+      "path": "examples/workflow-with-memory.md",
+      "keywords": [
+        "multi-agent",
+        "workflow",
+        "startup",
+        "mvp",
+        "persistent",
+        "memory",
+        "examples",
+        "workflow-with-memory"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-blender-blender-addon-engineer",
+      "title": "Blender Add-on Engineer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/blender/blender-addon-engineer.md",
+      "keywords": [
+        "blender",
+        "add-on",
+        "engineer",
+        "personality",
+        "game-development",
+        "blender-addon-engineer",
+        "addon"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-game-audio-engineer",
+      "title": "Game Audio Engineer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/game-audio-engineer.md",
+      "keywords": [
+        "game",
+        "audio",
+        "engineer",
+        "personality",
+        "game-development",
+        "game-audio-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-game-designer",
+      "title": "Game Designer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/game-designer.md",
+      "keywords": [
+        "game",
+        "designer",
+        "personality",
+        "game-development",
+        "game-designer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-godot-godot-gameplay-scripter",
+      "title": "Godot Gameplay Scripter Agent Personality",
+      "category": "game-development",
+      "path": "game-development/godot/godot-gameplay-scripter.md",
+      "keywords": [
+        "godot",
+        "gameplay",
+        "scripter",
+        "personality",
+        "game-development",
+        "godot-gameplay-scripter"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-godot-godot-multiplayer-engineer",
+      "title": "Godot Multiplayer Engineer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/godot/godot-multiplayer-engineer.md",
+      "keywords": [
+        "godot",
+        "multiplayer",
+        "engineer",
+        "personality",
+        "game-development",
+        "godot-multiplayer-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-godot-godot-shader-developer",
+      "title": "Godot Shader Developer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/godot/godot-shader-developer.md",
+      "keywords": [
+        "godot",
+        "shader",
+        "personality",
+        "game-development",
+        "godot-shader-developer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-level-designer",
+      "title": "Level Designer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/level-designer.md",
+      "keywords": [
+        "level",
+        "designer",
+        "personality",
+        "game-development",
+        "level-designer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-narrative-designer",
+      "title": "Narrative Designer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/narrative-designer.md",
+      "keywords": [
+        "narrative",
+        "designer",
+        "personality",
+        "game-development",
+        "narrative-designer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-roblox-studio-roblox-avatar-creator",
+      "title": "Roblox Avatar Creator Agent Personality",
+      "category": "game-development",
+      "path": "game-development/roblox-studio/roblox-avatar-creator.md",
+      "keywords": [
+        "roblox",
+        "avatar",
+        "creator",
+        "personality",
+        "game-development",
+        "roblox-studio",
+        "roblox-avatar-creator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-roblox-studio-roblox-experience-designer",
+      "title": "Roblox Experience Designer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/roblox-studio/roblox-experience-designer.md",
+      "keywords": [
+        "roblox",
+        "experience",
+        "designer",
+        "personality",
+        "game-development",
+        "roblox-studio",
+        "roblox-experience-designer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-roblox-studio-roblox-systems-scripter",
+      "title": "Roblox Systems Scripter Agent Personality",
+      "category": "game-development",
+      "path": "game-development/roblox-studio/roblox-systems-scripter.md",
+      "keywords": [
+        "roblox",
+        "systems",
+        "scripter",
+        "personality",
+        "game-development",
+        "roblox-studio",
+        "roblox-systems-scripter"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-technical-artist",
+      "title": "Technical Artist Agent Personality",
+      "category": "game-development",
+      "path": "game-development/technical-artist.md",
+      "keywords": [
+        "technical",
+        "artist",
+        "personality",
+        "game-development",
+        "technical-artist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-unity-unity-architect",
+      "title": "Unity Architect Agent Personality",
+      "category": "game-development",
+      "path": "game-development/unity/unity-architect.md",
+      "keywords": [
+        "unity",
+        "architect",
+        "personality",
+        "game-development",
+        "unity-architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-unity-unity-editor-tool-developer",
+      "title": "Unity Editor Tool Developer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/unity/unity-editor-tool-developer.md",
+      "keywords": [
+        "unity",
+        "editor",
+        "tool",
+        "personality",
+        "game-development",
+        "unity-editor-tool-developer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-unity-unity-multiplayer-engineer",
+      "title": "Unity Multiplayer Engineer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/unity/unity-multiplayer-engineer.md",
+      "keywords": [
+        "unity",
+        "multiplayer",
+        "engineer",
+        "personality",
+        "game-development",
+        "unity-multiplayer-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-unity-unity-shader-graph-artist",
+      "title": "Unity Shader Graph Artist Agent Personality",
+      "category": "game-development",
+      "path": "game-development/unity/unity-shader-graph-artist.md",
+      "keywords": [
+        "unity",
+        "shader",
+        "graph",
+        "artist",
+        "personality",
+        "game-development",
+        "unity-shader-graph-artist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-unreal-engine-unreal-multiplayer-architect",
+      "title": "Unreal Multiplayer Architect Agent Personality",
+      "category": "game-development",
+      "path": "game-development/unreal-engine/unreal-multiplayer-architect.md",
+      "keywords": [
+        "unreal",
+        "multiplayer",
+        "architect",
+        "personality",
+        "game-development",
+        "unreal-engine",
+        "unreal-multiplayer-architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-unreal-engine-unreal-systems-engineer",
+      "title": "Unreal Systems Engineer Agent Personality",
+      "category": "game-development",
+      "path": "game-development/unreal-engine/unreal-systems-engineer.md",
+      "keywords": [
+        "unreal",
+        "systems",
+        "engineer",
+        "personality",
+        "game-development",
+        "unreal-engine",
+        "unreal-systems-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-unreal-engine-unreal-technical-artist",
+      "title": "Unreal Technical Artist Agent Personality",
+      "category": "game-development",
+      "path": "game-development/unreal-engine/unreal-technical-artist.md",
+      "keywords": [
+        "unreal",
+        "technical",
+        "artist",
+        "personality",
+        "game-development",
+        "unreal-engine",
+        "unreal-technical-artist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "game-development-unreal-engine-unreal-world-builder",
+      "title": "Unreal World Builder Agent Personality",
+      "category": "game-development",
+      "path": "game-development/unreal-engine/unreal-world-builder.md",
+      "keywords": [
+        "unreal",
+        "world",
+        "personality",
+        "game-development",
+        "unreal-engine",
+        "unreal-world-builder"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-README",
+      "title": "🔌 Integrations",
+      "category": "integrations",
+      "path": "integrations/README.md",
+      "keywords": [
+        "integrations",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-aider-README",
+      "title": "Aider Integration",
+      "category": "integrations",
+      "path": "integrations/aider/README.md",
+      "keywords": [
+        "aider",
+        "integration",
+        "integrations",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-antigravity-README",
+      "title": "Antigravity Integration",
+      "category": "integrations",
+      "path": "integrations/antigravity/README.md",
+      "keywords": [
+        "antigravity",
+        "integration",
+        "integrations",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-claude-code-README",
+      "title": "Claude Code Integration",
+      "category": "integrations",
+      "path": "integrations/claude-code/README.md",
+      "keywords": [
+        "claude",
+        "code",
+        "integration",
+        "integrations",
+        "claude-code",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-cursor-README",
+      "title": "Cursor Integration",
+      "category": "integrations",
+      "path": "integrations/cursor/README.md",
+      "keywords": [
+        "cursor",
+        "integration",
+        "integrations",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-gemini-cli-README",
+      "title": "Gemini CLI Integration",
+      "category": "integrations",
+      "path": "integrations/gemini-cli/README.md",
+      "keywords": [
+        "gemini",
+        "cli",
+        "integration",
+        "integrations",
+        "gemini-cli",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-github-copilot-README",
+      "title": "GitHub Copilot Integration",
+      "category": "integrations",
+      "path": "integrations/github-copilot/README.md",
+      "keywords": [
+        "github",
+        "copilot",
+        "integration",
+        "integrations",
+        "github-copilot",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-mcp-memory-README",
+      "title": "MCP Memory Integration",
+      "category": "integrations",
+      "path": "integrations/mcp-memory/README.md",
+      "keywords": [
+        "mcp",
+        "memory",
+        "integration",
+        "integrations",
+        "mcp-memory",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-mcp-memory-backend-architect-with-memory",
+      "title": "Backend Architect Agent Personality",
+      "category": "integrations",
+      "path": "integrations/mcp-memory/backend-architect-with-memory.md",
+      "keywords": [
+        "backend",
+        "architect",
+        "personality",
+        "integrations",
+        "mcp-memory",
+        "backend-architect-with-memory",
+        "memory"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-openclaw-README",
+      "title": "OpenClaw Integration",
+      "category": "integrations",
+      "path": "integrations/openclaw/README.md",
+      "keywords": [
+        "openclaw",
+        "integration",
+        "integrations",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-opencode-README",
+      "title": "OpenCode Integration",
+      "category": "integrations",
+      "path": "integrations/opencode/README.md",
+      "keywords": [
+        "opencode",
+        "integration",
+        "integrations",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "integrations-windsurf-README",
+      "title": "Windsurf Integration",
+      "category": "integrations",
+      "path": "integrations/windsurf/README.md",
+      "keywords": [
+        "windsurf",
+        "integration",
+        "integrations",
+        "readme"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-ai-citation-strategist",
+      "title": "Your Identity & Memory",
+      "category": "marketing",
+      "path": "marketing/marketing-ai-citation-strategist.md",
+      "keywords": [
+        "identity",
+        "memory",
+        "marketing",
+        "marketing-ai-citation-strategist",
+        "ai",
+        "citation",
+        "strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-app-store-optimizer",
+      "title": "App Store Optimizer Agent Personality",
+      "category": "marketing",
+      "path": "marketing/marketing-app-store-optimizer.md",
+      "keywords": [
+        "app",
+        "store",
+        "optimizer",
+        "personality",
+        "marketing",
+        "marketing-app-store-optimizer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-baidu-seo-specialist",
+      "title": "Marketing Baidu SEO Specialist",
+      "category": "marketing",
+      "path": "marketing/marketing-baidu-seo-specialist.md",
+      "keywords": [
+        "marketing",
+        "baidu",
+        "seo",
+        "marketing-baidu-seo-specialist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-bilibili-content-strategist",
+      "title": "Marketing Bilibili Content Strategist",
+      "category": "marketing",
+      "path": "marketing/marketing-bilibili-content-strategist.md",
+      "keywords": [
+        "marketing",
+        "bilibili",
+        "content",
+        "strategist",
+        "marketing-bilibili-content-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-book-co-author",
+      "title": "Book Co-Author",
+      "category": "marketing",
+      "path": "marketing/marketing-book-co-author.md",
+      "keywords": [
+        "book",
+        "co-author",
+        "marketing",
+        "marketing-book-co-author",
+        "co",
+        "author"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-carousel-growth-engine",
+      "title": "Marketing Carousel Growth Engine",
+      "category": "marketing",
+      "path": "marketing/marketing-carousel-growth-engine.md",
+      "keywords": [
+        "marketing",
+        "carousel",
+        "growth",
+        "engine",
+        "marketing-carousel-growth-engine"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-china-ecommerce-operator",
+      "title": "Marketing China E-Commerce Operator",
+      "category": "marketing",
+      "path": "marketing/marketing-china-ecommerce-operator.md",
+      "keywords": [
+        "marketing",
+        "china",
+        "e-commerce",
+        "operator",
+        "marketing-china-ecommerce-operator",
+        "ecommerce"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-content-creator",
+      "title": "Marketing Content Creator Agent",
+      "category": "marketing",
+      "path": "marketing/marketing-content-creator.md",
+      "keywords": [
+        "marketing",
+        "content",
+        "creator",
+        "marketing-content-creator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-cross-border-ecommerce",
+      "title": "Marketing Cross-Border E-Commerce Specialist",
+      "category": "marketing",
+      "path": "marketing/marketing-cross-border-ecommerce.md",
+      "keywords": [
+        "marketing",
+        "cross-border",
+        "e-commerce",
+        "marketing-cross-border-ecommerce",
+        "cross",
+        "border",
+        "ecommerce"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-douyin-strategist",
+      "title": "Marketing Douyin Strategist",
+      "category": "marketing",
+      "path": "marketing/marketing-douyin-strategist.md",
+      "keywords": [
+        "marketing",
+        "douyin",
+        "strategist",
+        "marketing-douyin-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-growth-hacker",
+      "title": "Marketing Growth Hacker Agent",
+      "category": "marketing",
+      "path": "marketing/marketing-growth-hacker.md",
+      "keywords": [
+        "marketing",
+        "growth",
+        "hacker",
+        "marketing-growth-hacker"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-instagram-curator",
+      "title": "Marketing Instagram Curator",
+      "category": "marketing",
+      "path": "marketing/marketing-instagram-curator.md",
+      "keywords": [
+        "marketing",
+        "instagram",
+        "curator",
+        "marketing-instagram-curator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-kuaishou-strategist",
+      "title": "Marketing Kuaishou Strategist",
+      "category": "marketing",
+      "path": "marketing/marketing-kuaishou-strategist.md",
+      "keywords": [
+        "marketing",
+        "kuaishou",
+        "strategist",
+        "marketing-kuaishou-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-linkedin-content-creator",
+      "title": "LinkedIn Content Creator",
+      "category": "marketing",
+      "path": "marketing/marketing-linkedin-content-creator.md",
+      "keywords": [
+        "linkedin",
+        "content",
+        "creator",
+        "marketing",
+        "marketing-linkedin-content-creator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-livestream-commerce-coach",
+      "title": "Marketing Livestream Commerce Coach",
+      "category": "marketing",
+      "path": "marketing/marketing-livestream-commerce-coach.md",
+      "keywords": [
+        "marketing",
+        "livestream",
+        "commerce",
+        "coach",
+        "marketing-livestream-commerce-coach"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-podcast-strategist",
+      "title": "Marketing Podcast Strategist",
+      "category": "marketing",
+      "path": "marketing/marketing-podcast-strategist.md",
+      "keywords": [
+        "marketing",
+        "podcast",
+        "strategist",
+        "marketing-podcast-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-private-domain-operator",
+      "title": "Marketing Private Domain Operator",
+      "category": "marketing",
+      "path": "marketing/marketing-private-domain-operator.md",
+      "keywords": [
+        "marketing",
+        "private",
+        "domain",
+        "operator",
+        "marketing-private-domain-operator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-reddit-community-builder",
+      "title": "Marketing Reddit Community Builder",
+      "category": "marketing",
+      "path": "marketing/marketing-reddit-community-builder.md",
+      "keywords": [
+        "marketing",
+        "reddit",
+        "community",
+        "marketing-reddit-community-builder"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-seo-specialist",
+      "title": "Marketing SEO Specialist",
+      "category": "marketing",
+      "path": "marketing/marketing-seo-specialist.md",
+      "keywords": [
+        "marketing",
+        "seo",
+        "marketing-seo-specialist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-short-video-editing-coach",
+      "title": "Marketing Short-Video Editing Coach",
+      "category": "marketing",
+      "path": "marketing/marketing-short-video-editing-coach.md",
+      "keywords": [
+        "marketing",
+        "short-video",
+        "editing",
+        "coach",
+        "marketing-short-video-editing-coach",
+        "short",
+        "video"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-social-media-strategist",
+      "title": "Social Media Strategist Agent",
+      "category": "marketing",
+      "path": "marketing/marketing-social-media-strategist.md",
+      "keywords": [
+        "social",
+        "media",
+        "strategist",
+        "marketing",
+        "marketing-social-media-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-tiktok-strategist",
+      "title": "Marketing TikTok Strategist",
+      "category": "marketing",
+      "path": "marketing/marketing-tiktok-strategist.md",
+      "keywords": [
+        "marketing",
+        "tiktok",
+        "strategist",
+        "marketing-tiktok-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-twitter-engager",
+      "title": "Marketing Twitter Engager",
+      "category": "marketing",
+      "path": "marketing/marketing-twitter-engager.md",
+      "keywords": [
+        "marketing",
+        "twitter",
+        "engager",
+        "marketing-twitter-engager"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-wechat-official-account",
+      "title": "Marketing WeChat Official Account Manager",
+      "category": "marketing",
+      "path": "marketing/marketing-wechat-official-account.md",
+      "keywords": [
+        "marketing",
+        "wechat",
+        "official",
+        "account",
+        "manager",
+        "marketing-wechat-official-account"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-weibo-strategist",
+      "title": "Marketing Weibo Strategist",
+      "category": "marketing",
+      "path": "marketing/marketing-weibo-strategist.md",
+      "keywords": [
+        "marketing",
+        "weibo",
+        "strategist",
+        "marketing-weibo-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-xiaohongshu-specialist",
+      "title": "Marketing Xiaohongshu Specialist",
+      "category": "marketing",
+      "path": "marketing/marketing-xiaohongshu-specialist.md",
+      "keywords": [
+        "marketing",
+        "xiaohongshu",
+        "marketing-xiaohongshu-specialist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "marketing-marketing-zhihu-strategist",
+      "title": "Marketing Zhihu Strategist",
+      "category": "marketing",
+      "path": "marketing/marketing-zhihu-strategist.md",
+      "keywords": [
+        "marketing",
+        "zhihu",
+        "strategist",
+        "marketing-zhihu-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "paid-media-paid-media-auditor",
+      "title": "Paid Media Auditor Agent",
+      "category": "paid-media",
+      "path": "paid-media/paid-media-auditor.md",
+      "keywords": [
+        "paid",
+        "media",
+        "auditor",
+        "paid-media",
+        "paid-media-auditor"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "paid-media-paid-media-creative-strategist",
+      "title": "Paid Media Ad Creative Strategist Agent",
+      "category": "paid-media",
+      "path": "paid-media/paid-media-creative-strategist.md",
+      "keywords": [
+        "paid",
+        "media",
+        "ad",
+        "creative",
+        "strategist",
+        "paid-media",
+        "paid-media-creative-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "paid-media-paid-media-paid-social-strategist",
+      "title": "Paid Media Paid Social Strategist Agent",
+      "category": "paid-media",
+      "path": "paid-media/paid-media-paid-social-strategist.md",
+      "keywords": [
+        "paid",
+        "media",
+        "social",
+        "strategist",
+        "paid-media",
+        "paid-media-paid-social-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "paid-media-paid-media-ppc-strategist",
+      "title": "Paid Media PPC Campaign Strategist Agent",
+      "category": "paid-media",
+      "path": "paid-media/paid-media-ppc-strategist.md",
+      "keywords": [
+        "paid",
+        "media",
+        "ppc",
+        "campaign",
+        "strategist",
+        "paid-media",
+        "paid-media-ppc-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "paid-media-paid-media-programmatic-buyer",
+      "title": "Paid Media Programmatic & Display Buyer Agent",
+      "category": "paid-media",
+      "path": "paid-media/paid-media-programmatic-buyer.md",
+      "keywords": [
+        "paid",
+        "media",
+        "programmatic",
+        "display",
+        "buyer",
+        "paid-media",
+        "paid-media-programmatic-buyer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "paid-media-paid-media-search-query-analyst",
+      "title": "Paid Media Search Query Analyst Agent",
+      "category": "paid-media",
+      "path": "paid-media/paid-media-search-query-analyst.md",
+      "keywords": [
+        "paid",
+        "media",
+        "search",
+        "query",
+        "analyst",
+        "paid-media",
+        "paid-media-search-query-analyst"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "paid-media-paid-media-tracking-specialist",
+      "title": "Paid Media Tracking & Measurement Specialist Agent",
+      "category": "paid-media",
+      "path": "paid-media/paid-media-tracking-specialist.md",
+      "keywords": [
+        "paid",
+        "media",
+        "tracking",
+        "measurement",
+        "paid-media",
+        "paid-media-tracking-specialist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "product-product-behavioral-nudge-engine",
+      "title": "🧠 Behavioral Nudge Engine",
+      "category": "product",
+      "path": "product/product-behavioral-nudge-engine.md",
+      "keywords": [
+        "behavioral",
+        "nudge",
+        "engine",
+        "product",
+        "product-behavioral-nudge-engine"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "product-product-feedback-synthesizer",
+      "title": "Product Feedback Synthesizer Agent",
+      "category": "product",
+      "path": "product/product-feedback-synthesizer.md",
+      "keywords": [
+        "product",
+        "feedback",
+        "synthesizer",
+        "product-feedback-synthesizer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "product-product-manager",
+      "title": "🧭 Product Manager Agent",
+      "category": "product",
+      "path": "product/product-manager.md",
+      "keywords": [
+        "product",
+        "manager",
+        "product-manager"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "product-product-sprint-prioritizer",
+      "title": "Product Sprint Prioritizer Agent",
+      "category": "product",
+      "path": "product/product-sprint-prioritizer.md",
+      "keywords": [
+        "product",
+        "sprint",
+        "prioritizer",
+        "product-sprint-prioritizer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "product-product-trend-researcher",
+      "title": "Product Trend Researcher Agent",
+      "category": "product",
+      "path": "product/product-trend-researcher.md",
+      "keywords": [
+        "product",
+        "trend",
+        "researcher",
+        "product-trend-researcher"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "project-management-project-management-experiment-tracker",
+      "title": "Experiment Tracker Agent Personality",
+      "category": "project-management",
+      "path": "project-management/project-management-experiment-tracker.md",
+      "keywords": [
+        "experiment",
+        "tracker",
+        "personality",
+        "project-management",
+        "project-management-experiment-tracker",
+        "project",
+        "management"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "project-management-project-management-jira-workflow-steward",
+      "title": "Jira Workflow Steward Agent",
+      "category": "project-management",
+      "path": "project-management/project-management-jira-workflow-steward.md",
+      "keywords": [
+        "jira",
+        "workflow",
+        "steward",
+        "project-management",
+        "project-management-jira-workflow-steward",
+        "project",
+        "management"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "project-management-project-management-project-shepherd",
+      "title": "Project Shepherd Agent Personality",
+      "category": "project-management",
+      "path": "project-management/project-management-project-shepherd.md",
+      "keywords": [
+        "project",
+        "shepherd",
+        "personality",
+        "project-management",
+        "project-management-project-shepherd",
+        "management"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "project-management-project-management-studio-operations",
+      "title": "Studio Operations Agent Personality",
+      "category": "project-management",
+      "path": "project-management/project-management-studio-operations.md",
+      "keywords": [
+        "studio",
+        "operations",
+        "personality",
+        "project-management",
+        "project-management-studio-operations",
+        "project",
+        "management"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "project-management-project-management-studio-producer",
+      "title": "Studio Producer Agent Personality",
+      "category": "project-management",
+      "path": "project-management/project-management-studio-producer.md",
+      "keywords": [
+        "studio",
+        "producer",
+        "personality",
+        "project-management",
+        "project-management-studio-producer",
+        "project",
+        "management"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "project-management-project-manager-senior",
+      "title": "Project Manager Agent Personality",
+      "category": "project-management",
+      "path": "project-management/project-manager-senior.md",
+      "keywords": [
+        "project",
+        "manager",
+        "personality",
+        "project-management",
+        "project-manager-senior",
+        "senior"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "sales-sales-account-strategist",
+      "title": "Account Strategist Agent",
+      "category": "sales",
+      "path": "sales/sales-account-strategist.md",
+      "keywords": [
+        "account",
+        "strategist",
+        "sales",
+        "sales-account-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "sales-sales-coach",
+      "title": "Sales Coach Agent",
+      "category": "sales",
+      "path": "sales/sales-coach.md",
+      "keywords": [
+        "sales",
+        "coach",
+        "sales-coach"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "sales-sales-deal-strategist",
+      "title": "Deal Strategist Agent",
+      "category": "sales",
+      "path": "sales/sales-deal-strategist.md",
+      "keywords": [
+        "deal",
+        "strategist",
+        "sales",
+        "sales-deal-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "sales-sales-discovery-coach",
+      "title": "Discovery Coach Agent",
+      "category": "sales",
+      "path": "sales/sales-discovery-coach.md",
+      "keywords": [
+        "discovery",
+        "coach",
+        "sales",
+        "sales-discovery-coach"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "sales-sales-engineer",
+      "title": "Sales Engineer Agent",
+      "category": "sales",
+      "path": "sales/sales-engineer.md",
+      "keywords": [
+        "sales",
+        "engineer",
+        "sales-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "sales-sales-outbound-strategist",
+      "title": "Outbound Strategist Agent",
+      "category": "sales",
+      "path": "sales/sales-outbound-strategist.md",
+      "keywords": [
+        "outbound",
+        "strategist",
+        "sales",
+        "sales-outbound-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "sales-sales-pipeline-analyst",
+      "title": "Pipeline Analyst Agent",
+      "category": "sales",
+      "path": "sales/sales-pipeline-analyst.md",
+      "keywords": [
+        "pipeline",
+        "analyst",
+        "sales",
+        "sales-pipeline-analyst"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "sales-sales-proposal-strategist",
+      "title": "Proposal Strategist Agent",
+      "category": "sales",
+      "path": "sales/sales-proposal-strategist.md",
+      "keywords": [
+        "proposal",
+        "strategist",
+        "sales",
+        "sales-proposal-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "spatial-computing-macos-spatial-metal-engineer",
+      "title": "macOS Spatial/Metal Engineer Agent Personality",
+      "category": "spatial-computing",
+      "path": "spatial-computing/macos-spatial-metal-engineer.md",
+      "keywords": [
+        "macos",
+        "spatial",
+        "metal",
+        "engineer",
+        "personality",
+        "spatial-computing",
+        "macos-spatial-metal-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "spatial-computing-terminal-integration-specialist",
+      "title": "Terminal Integration Specialist",
+      "category": "spatial-computing",
+      "path": "spatial-computing/terminal-integration-specialist.md",
+      "keywords": [
+        "terminal",
+        "integration",
+        "spatial-computing",
+        "terminal-integration-specialist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "spatial-computing-visionos-spatial-engineer",
+      "title": "visionOS Spatial Engineer",
+      "category": "spatial-computing",
+      "path": "spatial-computing/visionos-spatial-engineer.md",
+      "keywords": [
+        "visionos",
+        "spatial",
+        "engineer",
+        "spatial-computing",
+        "visionos-spatial-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "spatial-computing-xr-cockpit-interaction-specialist",
+      "title": "XR Cockpit Interaction Specialist Agent Personality",
+      "category": "spatial-computing",
+      "path": "spatial-computing/xr-cockpit-interaction-specialist.md",
+      "keywords": [
+        "xr",
+        "cockpit",
+        "interaction",
+        "personality",
+        "spatial-computing",
+        "xr-cockpit-interaction-specialist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "spatial-computing-xr-immersive-developer",
+      "title": "XR Immersive Developer Agent Personality",
+      "category": "spatial-computing",
+      "path": "spatial-computing/xr-immersive-developer.md",
+      "keywords": [
+        "xr",
+        "immersive",
+        "personality",
+        "spatial-computing",
+        "xr-immersive-developer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "spatial-computing-xr-interface-architect",
+      "title": "XR Interface Architect Agent Personality",
+      "category": "spatial-computing",
+      "path": "spatial-computing/xr-interface-architect.md",
+      "keywords": [
+        "xr",
+        "interface",
+        "architect",
+        "personality",
+        "spatial-computing",
+        "xr-interface-architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-accounts-payable-agent",
+      "title": "Accounts Payable Agent Personality",
+      "category": "specialized",
+      "path": "specialized/accounts-payable-agent.md",
+      "keywords": [
+        "accounts",
+        "payable",
+        "personality",
+        "specialized",
+        "accounts-payable-agent"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-agentic-identity-trust",
+      "title": "Agentic Identity & Trust Architect",
+      "category": "specialized",
+      "path": "specialized/agentic-identity-trust.md",
+      "keywords": [
+        "agentic",
+        "identity",
+        "trust",
+        "architect",
+        "specialized",
+        "agentic-identity-trust"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-agents-orchestrator",
+      "title": "AgentsOrchestrator Agent Personality",
+      "category": "specialized",
+      "path": "specialized/agents-orchestrator.md",
+      "keywords": [
+        "agentsorchestrator",
+        "personality",
+        "specialized",
+        "agents-orchestrator",
+        "agents",
+        "orchestrator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-automation-governance-architect",
+      "title": "Automation Governance Architect",
+      "category": "specialized",
+      "path": "specialized/automation-governance-architect.md",
+      "keywords": [
+        "automation",
+        "governance",
+        "architect",
+        "specialized",
+        "automation-governance-architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-blockchain-security-auditor",
+      "title": "Blockchain Security Auditor",
+      "category": "specialized",
+      "path": "specialized/blockchain-security-auditor.md",
+      "keywords": [
+        "blockchain",
+        "security",
+        "auditor",
+        "specialized",
+        "blockchain-security-auditor"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-compliance-auditor",
+      "title": "Compliance Auditor Agent",
+      "category": "specialized",
+      "path": "specialized/compliance-auditor.md",
+      "keywords": [
+        "compliance",
+        "auditor",
+        "specialized",
+        "compliance-auditor"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-corporate-training-designer",
+      "title": "Corporate Training Designer",
+      "category": "specialized",
+      "path": "specialized/corporate-training-designer.md",
+      "keywords": [
+        "corporate",
+        "training",
+        "designer",
+        "specialized",
+        "corporate-training-designer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-data-consolidation-agent",
+      "title": "Data Consolidation Agent",
+      "category": "specialized",
+      "path": "specialized/data-consolidation-agent.md",
+      "keywords": [
+        "data",
+        "consolidation",
+        "specialized",
+        "data-consolidation-agent"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-government-digital-presales-consultant",
+      "title": "Government Digital Presales Consultant",
+      "category": "specialized",
+      "path": "specialized/government-digital-presales-consultant.md",
+      "keywords": [
+        "government",
+        "digital",
+        "presales",
+        "consultant",
+        "specialized",
+        "government-digital-presales-consultant"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-healthcare-marketing-compliance",
+      "title": "Healthcare Marketing Compliance Specialist",
+      "category": "specialized",
+      "path": "specialized/healthcare-marketing-compliance.md",
+      "keywords": [
+        "healthcare",
+        "marketing",
+        "compliance",
+        "specialized",
+        "healthcare-marketing-compliance"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-identity-graph-operator",
+      "title": "Identity Graph Operator",
+      "category": "specialized",
+      "path": "specialized/identity-graph-operator.md",
+      "keywords": [
+        "identity",
+        "graph",
+        "operator",
+        "specialized",
+        "identity-graph-operator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-lsp-index-engineer",
+      "title": "LSP/Index Engineer Agent Personality",
+      "category": "specialized",
+      "path": "specialized/lsp-index-engineer.md",
+      "keywords": [
+        "lsp",
+        "index",
+        "engineer",
+        "personality",
+        "specialized",
+        "lsp-index-engineer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-recruitment-specialist",
+      "title": "Recruitment Specialist Agent",
+      "category": "specialized",
+      "path": "specialized/recruitment-specialist.md",
+      "keywords": [
+        "recruitment",
+        "specialized",
+        "recruitment-specialist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-report-distribution-agent",
+      "title": "Report Distribution Agent",
+      "category": "specialized",
+      "path": "specialized/report-distribution-agent.md",
+      "keywords": [
+        "report",
+        "distribution",
+        "specialized",
+        "report-distribution-agent"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-sales-data-extraction-agent",
+      "title": "Sales Data Extraction Agent",
+      "category": "specialized",
+      "path": "specialized/sales-data-extraction-agent.md",
+      "keywords": [
+        "sales",
+        "data",
+        "extraction",
+        "specialized",
+        "sales-data-extraction-agent"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-specialized-cultural-intelligence-strategist",
+      "title": "🌍 Cultural Intelligence Strategist",
+      "category": "specialized",
+      "path": "specialized/specialized-cultural-intelligence-strategist.md",
+      "keywords": [
+        "cultural",
+        "intelligence",
+        "strategist",
+        "specialized",
+        "specialized-cultural-intelligence-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-specialized-developer-advocate",
+      "title": "Developer Advocate Agent",
+      "category": "specialized",
+      "path": "specialized/specialized-developer-advocate.md",
+      "keywords": [
+        "advocate",
+        "specialized",
+        "specialized-developer-advocate"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-specialized-document-generator",
+      "title": "Document Generator Agent",
+      "category": "specialized",
+      "path": "specialized/specialized-document-generator.md",
+      "keywords": [
+        "document",
+        "generator",
+        "specialized",
+        "specialized-document-generator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-specialized-french-consulting-market",
+      "title": "🧠 Your Identity & Memory",
+      "category": "specialized",
+      "path": "specialized/specialized-french-consulting-market.md",
+      "keywords": [
+        "identity",
+        "memory",
+        "specialized",
+        "specialized-french-consulting-market",
+        "french",
+        "consulting",
+        "market"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-specialized-korean-business-navigator",
+      "title": "🧠 Your Identity & Memory",
+      "category": "specialized",
+      "path": "specialized/specialized-korean-business-navigator.md",
+      "keywords": [
+        "identity",
+        "memory",
+        "specialized",
+        "specialized-korean-business-navigator",
+        "korean",
+        "business",
+        "navigator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-specialized-mcp-builder",
+      "title": "MCP Builder Agent",
+      "category": "specialized",
+      "path": "specialized/specialized-mcp-builder.md",
+      "keywords": [
+        "mcp",
+        "specialized",
+        "specialized-mcp-builder"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-specialized-model-qa",
+      "title": "Model QA Specialist",
+      "category": "specialized",
+      "path": "specialized/specialized-model-qa.md",
+      "keywords": [
+        "model",
+        "qa",
+        "specialized",
+        "specialized-model-qa"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-specialized-salesforce-architect",
+      "title": "🧠 Your Identity & Memory",
+      "category": "specialized",
+      "path": "specialized/specialized-salesforce-architect.md",
+      "keywords": [
+        "identity",
+        "memory",
+        "specialized",
+        "specialized-salesforce-architect",
+        "salesforce",
+        "architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-specialized-workflow-architect",
+      "title": "Workflow Architect Agent Personality",
+      "category": "specialized",
+      "path": "specialized/specialized-workflow-architect.md",
+      "keywords": [
+        "workflow",
+        "architect",
+        "personality",
+        "specialized",
+        "specialized-workflow-architect"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-study-abroad-advisor",
+      "title": "Study Abroad Advisor",
+      "category": "specialized",
+      "path": "specialized/study-abroad-advisor.md",
+      "keywords": [
+        "study",
+        "abroad",
+        "advisor",
+        "specialized",
+        "study-abroad-advisor"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-supply-chain-strategist",
+      "title": "Supply Chain Strategist Agent",
+      "category": "specialized",
+      "path": "specialized/supply-chain-strategist.md",
+      "keywords": [
+        "supply",
+        "chain",
+        "strategist",
+        "specialized",
+        "supply-chain-strategist"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "specialized-zk-steward",
+      "title": "ZK Steward Agent",
+      "category": "specialized",
+      "path": "specialized/zk-steward.md",
+      "keywords": [
+        "zk",
+        "steward",
+        "specialized",
+        "zk-steward"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-EXECUTIVE-BRIEF",
+      "title": "📑 NEXUS Executive Brief",
+      "category": "strategy",
+      "path": "strategy/EXECUTIVE-BRIEF.md",
+      "keywords": [
+        "nexus",
+        "executive",
+        "brief",
+        "strategy",
+        "executive-brief"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-QUICKSTART",
+      "title": "⚡ NEXUS Quick-Start Guide",
+      "category": "strategy",
+      "path": "strategy/QUICKSTART.md",
+      "keywords": [
+        "nexus",
+        "quick-start",
+        "guide",
+        "strategy",
+        "quickstart"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-coordination-agent-activation-prompts",
+      "title": "🎯 NEXUS Agent Activation Prompts",
+      "category": "strategy",
+      "path": "strategy/coordination/agent-activation-prompts.md",
+      "keywords": [
+        "nexus",
+        "activation",
+        "prompts",
+        "strategy",
+        "coordination",
+        "agent-activation-prompts"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-coordination-handoff-templates",
+      "title": "📋 NEXUS Handoff Templates",
+      "category": "strategy",
+      "path": "strategy/coordination/handoff-templates.md",
+      "keywords": [
+        "nexus",
+        "handoff",
+        "templates",
+        "strategy",
+        "coordination",
+        "handoff-templates"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-nexus-strategy",
+      "title": "🌐 NEXUS — Network of EXperts, Unified in Strategy",
+      "category": "strategy",
+      "path": "strategy/nexus-strategy.md",
+      "keywords": [
+        "nexus",
+        "network",
+        "of",
+        "experts",
+        "unified",
+        "in",
+        "strategy",
+        "nexus-strategy"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-playbooks-phase-0-discovery",
+      "title": "🔍 Phase 0 Playbook — Intelligence & Discovery",
+      "category": "strategy",
+      "path": "strategy/playbooks/phase-0-discovery.md",
+      "keywords": [
+        "phase",
+        "playbook",
+        "intelligence",
+        "discovery",
+        "strategy",
+        "playbooks",
+        "phase-0-discovery"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-playbooks-phase-1-strategy",
+      "title": "🏗️ Phase 1 Playbook — Strategy & Architecture",
+      "category": "strategy",
+      "path": "strategy/playbooks/phase-1-strategy.md",
+      "keywords": [
+        "phase",
+        "playbook",
+        "strategy",
+        "architecture",
+        "playbooks",
+        "phase-1-strategy"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-playbooks-phase-2-foundation",
+      "title": "⚙️ Phase 2 Playbook — Foundation & Scaffolding",
+      "category": "strategy",
+      "path": "strategy/playbooks/phase-2-foundation.md",
+      "keywords": [
+        "phase",
+        "playbook",
+        "foundation",
+        "scaffolding",
+        "strategy",
+        "playbooks",
+        "phase-2-foundation"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-playbooks-phase-3-build",
+      "title": "🔨 Phase 3 Playbook — Build & Iterate",
+      "category": "strategy",
+      "path": "strategy/playbooks/phase-3-build.md",
+      "keywords": [
+        "phase",
+        "playbook",
+        "build",
+        "iterate",
+        "strategy",
+        "playbooks",
+        "phase-3-build"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-playbooks-phase-4-hardening",
+      "title": "🛡️ Phase 4 Playbook — Quality & Hardening",
+      "category": "strategy",
+      "path": "strategy/playbooks/phase-4-hardening.md",
+      "keywords": [
+        "phase",
+        "playbook",
+        "quality",
+        "hardening",
+        "strategy",
+        "playbooks",
+        "phase-4-hardening"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-playbooks-phase-5-launch",
+      "title": "🚀 Phase 5 Playbook — Launch & Growth",
+      "category": "strategy",
+      "path": "strategy/playbooks/phase-5-launch.md",
+      "keywords": [
+        "phase",
+        "playbook",
+        "launch",
+        "growth",
+        "strategy",
+        "playbooks",
+        "phase-5-launch"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-playbooks-phase-6-operate",
+      "title": "🔄 Phase 6 Playbook — Operate & Evolve",
+      "category": "strategy",
+      "path": "strategy/playbooks/phase-6-operate.md",
+      "keywords": [
+        "phase",
+        "playbook",
+        "operate",
+        "evolve",
+        "strategy",
+        "playbooks",
+        "phase-6-operate"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-runbooks-scenario-enterprise-feature",
+      "title": "🏢 Runbook: Enterprise Feature Development",
+      "category": "strategy",
+      "path": "strategy/runbooks/scenario-enterprise-feature.md",
+      "keywords": [
+        "runbook",
+        "enterprise",
+        "feature",
+        "development",
+        "strategy",
+        "runbooks",
+        "scenario-enterprise-feature",
+        "scenario"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-runbooks-scenario-incident-response",
+      "title": "🚨 Runbook: Incident Response",
+      "category": "strategy",
+      "path": "strategy/runbooks/scenario-incident-response.md",
+      "keywords": [
+        "runbook",
+        "incident",
+        "response",
+        "strategy",
+        "runbooks",
+        "scenario-incident-response",
+        "scenario"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-runbooks-scenario-marketing-campaign",
+      "title": "📢 Runbook: Multi-Channel Marketing Campaign",
+      "category": "strategy",
+      "path": "strategy/runbooks/scenario-marketing-campaign.md",
+      "keywords": [
+        "runbook",
+        "multi-channel",
+        "marketing",
+        "campaign",
+        "strategy",
+        "runbooks",
+        "scenario-marketing-campaign",
+        "scenario"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "strategy-runbooks-scenario-startup-mvp",
+      "title": "🚀 Runbook: Startup MVP Build",
+      "category": "strategy",
+      "path": "strategy/runbooks/scenario-startup-mvp.md",
+      "keywords": [
+        "runbook",
+        "startup",
+        "mvp",
+        "build",
+        "strategy",
+        "runbooks",
+        "scenario-startup-mvp",
+        "scenario"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "support-support-analytics-reporter",
+      "title": "Analytics Reporter Agent Personality",
+      "category": "support",
+      "path": "support/support-analytics-reporter.md",
+      "keywords": [
+        "analytics",
+        "reporter",
+        "personality",
+        "support",
+        "support-analytics-reporter"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "support-support-executive-summary-generator",
+      "title": "Executive Summary Generator Agent Personality",
+      "category": "support",
+      "path": "support/support-executive-summary-generator.md",
+      "keywords": [
+        "executive",
+        "summary",
+        "generator",
+        "personality",
+        "support",
+        "support-executive-summary-generator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "support-support-finance-tracker",
+      "title": "Finance Tracker Agent Personality",
+      "category": "support",
+      "path": "support/support-finance-tracker.md",
+      "keywords": [
+        "finance",
+        "tracker",
+        "personality",
+        "support",
+        "support-finance-tracker"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "support-support-infrastructure-maintainer",
+      "title": "Infrastructure Maintainer Agent Personality",
+      "category": "support",
+      "path": "support/support-infrastructure-maintainer.md",
+      "keywords": [
+        "infrastructure",
+        "maintainer",
+        "personality",
+        "support",
+        "support-infrastructure-maintainer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "support-support-legal-compliance-checker",
+      "title": "Legal Compliance Checker Agent Personality",
+      "category": "support",
+      "path": "support/support-legal-compliance-checker.md",
+      "keywords": [
+        "legal",
+        "compliance",
+        "checker",
+        "personality",
+        "support",
+        "support-legal-compliance-checker"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "support-support-support-responder",
+      "title": "Support Responder Agent Personality",
+      "category": "support",
+      "path": "support/support-support-responder.md",
+      "keywords": [
+        "support",
+        "responder",
+        "personality",
+        "support-support-responder"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "testing-testing-accessibility-auditor",
+      "title": "Accessibility Auditor Agent Personality",
+      "category": "testing",
+      "path": "testing/testing-accessibility-auditor.md",
+      "keywords": [
+        "accessibility",
+        "auditor",
+        "personality",
+        "testing",
+        "testing-accessibility-auditor"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "testing-testing-api-tester",
+      "title": "API Tester Agent Personality",
+      "category": "testing",
+      "path": "testing/testing-api-tester.md",
+      "keywords": [
+        "api",
+        "tester",
+        "personality",
+        "testing",
+        "testing-api-tester"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "testing-testing-evidence-collector",
+      "title": "QA Agent Personality",
+      "category": "testing",
+      "path": "testing/testing-evidence-collector.md",
+      "keywords": [
+        "qa",
+        "personality",
+        "testing",
+        "testing-evidence-collector",
+        "evidence",
+        "collector"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "testing-testing-performance-benchmarker",
+      "title": "Performance Benchmarker Agent Personality",
+      "category": "testing",
+      "path": "testing/testing-performance-benchmarker.md",
+      "keywords": [
+        "performance",
+        "benchmarker",
+        "personality",
+        "testing",
+        "testing-performance-benchmarker"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "testing-testing-reality-checker",
+      "title": "Integration Agent Personality",
+      "category": "testing",
+      "path": "testing/testing-reality-checker.md",
+      "keywords": [
+        "integration",
+        "personality",
+        "testing",
+        "testing-reality-checker",
+        "reality",
+        "checker"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "testing-testing-test-results-analyzer",
+      "title": "Test Results Analyzer Agent Personality",
+      "category": "testing",
+      "path": "testing/testing-test-results-analyzer.md",
+      "keywords": [
+        "test",
+        "results",
+        "analyzer",
+        "personality",
+        "testing",
+        "testing-test-results-analyzer"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "testing-testing-tool-evaluator",
+      "title": "Tool Evaluator Agent Personality",
+      "category": "testing",
+      "path": "testing/testing-tool-evaluator.md",
+      "keywords": [
+        "tool",
+        "evaluator",
+        "personality",
+        "testing",
+        "testing-tool-evaluator"
+      ],
+      "when_to_use": []
+    },
+    {
+      "id": "testing-testing-workflow-optimizer",
+      "title": "Workflow Optimizer Agent Personality",
+      "category": "testing",
+      "path": "testing/testing-workflow-optimizer.md",
+      "keywords": [
+        "workflow",
+        "optimizer",
+        "personality",
+        "testing",
+        "testing-workflow-optimizer"
+      ],
+      "when_to_use": []
+    }
+  ]
+}

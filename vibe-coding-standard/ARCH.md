@@ -66,6 +66,11 @@ your-project/
 │       ├── package.json
 │       └── Dockerfile
 ├── reference/
+│   ├── agency/
+│   │   ├── README.md
+│   │   ├── build_index.py
+│   │   ├── index.json
+│   │   └── upstream/
 ```
 
 分层规则：
@@ -169,3 +174,10 @@ your-project/
 - 前端阶段先明确页面结构、状态流转、错误反馈和接口契约占位
 - 后端阶段再实现 API、业务规则和 SQLite 持久化
 - 如果前端需求未稳定就先做后端，最容易造成接口返工；这是默认不推荐方案
+
+### 外部参考索引
+
+- 可在 `reference/agency` 保存外部 agent Markdown 快照与索引，作为本地技能之外的后备知识源
+- 该索引的优先级低于本地技能和项目文档
+- 若请求已明确命中 `frontend-dev`、`fullstack-dev` 等本地技能，则不再额外加载同领域 agency 文档
+- 动态加载的 agency 文档只用于当前任务，不作为长期持久上下文
