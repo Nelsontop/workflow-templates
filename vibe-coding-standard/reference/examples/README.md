@@ -44,6 +44,22 @@
 - `reference/examples/minimal-mvp/ARCH.md`
 - `reference/examples/minimal-mvp/project_state.md`
 
+### `content-ops-platform`
+
+一个偏运营后台的示例，主题是“多账号、多平台的内容矩阵运营台”。
+
+适合你参考它的情况：
+
+- 你要做的是后台，不是内容消费前台
+- 你需要管理内容草稿、审核、发布任务和结果回填
+- 你希望先预留统一发布接口，并支持本地技能、CLI 或脚本调用
+
+包含文件：
+
+- `reference/examples/content-ops-platform/PRD.md`
+- `reference/examples/content-ops-platform/ARCH.md`
+- `reference/examples/content-ops-platform/project_state.md`
+
 ## 推荐阅读顺序
 
 1. 先读示例 `PRD.md`
@@ -55,6 +71,7 @@
 
 如果你只想快速验证个人想法，优先看 `minimal-mvp`。
 如果你要做一个更完整的 Web 产品，再看 `minimal-saas`。
+如果你要做类似小红书运营后台、内容矩阵运营台这类后台系统，优先看 `content-ops-platform`。
 
 ## 如何把示例用到你自己的项目
 
@@ -76,3 +93,4 @@
 - 每个示例都应保持 `PRD.md`、`ARCH.md`、`project_state.md` 三件套
 - 如果新增的是移动端、原生端或强后端场景，应突出为什么它和 `minimal-saas` 的边界不同
 - 如果新增的是个人验证类项目，应像 `minimal-mvp` 一样主动删掉不影响验证速度的复杂能力
+- 如果新增的是运营后台类项目，应明确“业务状态模型”和“外部平台适配层”之间的边界

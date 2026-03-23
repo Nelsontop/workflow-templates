@@ -2,14 +2,16 @@
 
 ## 当前阶段
 
-- 当前目标：让 `reference/examples/` 同时覆盖“完整 SaaS 示例”和“个人最小 MVP 示例”
-- 当前切片：新增 `reference/examples/minimal-mvp/`，提供更适合个人快速验证想法的样例
+- 当前目标：为 `reference/examples/` 增加一套偏运营后台的样例
+- 当前切片：新增 `reference/examples/content-ops-platform/`，覆盖内容矩阵运营台场景
 - 允许修改的文件：`reference/examples/**`、`project_state.md`
 - 当前端别：前端
 - 是否已完成前端确认：不适用
 
 ## 已完成
 
+- 新增 `reference/examples/content-ops-platform/`，提供内容矩阵运营后台样例，覆盖内容流转、发布任务、接口预留和状态回填
+- 更新 `reference/examples/README.md`，补充内容运营后台样例的适用场景
 - 新增 `reference/examples/minimal-mvp/`，提供一套去掉复杂能力、只保留最小验证闭环的 `PRD.md`、`ARCH.md`、`project_state.md`
 - 更新 `reference/examples/README.md`，说明 `minimal-saas` 与 `minimal-mvp` 的适用差异
 - 新增 `reference/examples/README.md`，说明示例目录的用途、推荐阅读顺序和复用检查清单
@@ -37,13 +39,13 @@
 
 ## 下一步
 
-- 下一切片：如有需要，再补内容型站点或工具型内部平台样例
-- 下一步验收目标：确认使用者能根据项目复杂度在 `minimal-mvp` 和 `minimal-saas` 之间快速选型
+- 下一切片：如有需要，再补纯内容平台或创作者前台类样例
+- 下一步验收目标：确认使用者能根据项目类型在 `minimal-mvp`、`minimal-saas` 和 `content-ops-platform` 之间快速选型
 - 是否进入后端开发：否
 
 ## 最近一次验证
 
-- 手动验证：已检查 `minimal-mvp` 三份文档与 `README.md` 的定位说明一致，且复杂度明显低于 `minimal-saas`
+- 手动验证：已检查 `content-ops-platform` 三份文档与 `README.md` 的定位说明一致，且突出了统一发布接口和本地技能/CLI 调用边界
 - lint：未运行，当前仓库无统一 lint 入口
 - typecheck：未运行，当前切片主要为文档和 Python 脚本
 - test：未运行，本次切片为文档模板更新
