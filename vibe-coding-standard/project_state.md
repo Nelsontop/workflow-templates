@@ -2,14 +2,17 @@
 
 ## 当前阶段
 
-- 当前目标：统一四份根文档中“问题、目标、非目标、工作流、验收、回滚”的术语口径
-- 当前切片：补齐 `PRD.md` 与 `AGENTS.md` 之间对新版 PRD 职责的描述同步
-- 允许修改的文件：`PRD.md`、`AGENTS.md`、`project_state.md`
+- 当前目标：让 `reference/examples/` 对使用者更易读，能直接指导如何复用示例
+- 当前切片：新增 `reference/examples/README.md`，说明示例目录的用途、阅读顺序和复用方式
+- 允许修改的文件：`reference/examples/**`、`project_state.md`
 - 当前端别：前端
 - 是否已完成前端确认：不适用
 
 ## 已完成
 
+- 新增 `reference/examples/README.md`，说明示例目录的用途、推荐阅读顺序和复用检查清单
+- 新增 `reference/examples/minimal-saas/`，提供一套围绕轻量 SaaS 场景的完整示例 `PRD.md`、`ARCH.md`、`project_state.md`
+- 用示例演示“用户流程 -> 核心工作流 -> 验证 -> 回滚”的完整填写方式
 - 同步更新 `AGENTS.md`，让主规则明确新版 PRD 要包含问题证据、成功指标、非目标、开放问题和发布回滚口径
 - 补充 `PRD.md` 的流程映射、切片验收与发布回滚字段，使其与新版 `ARCH.md` 的工作流和验证矩阵对齐
 - 同步更新 `AGENTS.md` 与 `CLAUDE.md`，补充 `ARCH.md` 的 ADR、工作流、handoff 契约、失败恢复与结构化验证要求
@@ -32,13 +35,13 @@
 
 ## 下一步
 
-- 下一切片：如有需要，再补一份示例项目级填写样例，演示 PRD 与 ARCH 如何配对落地
-- 下一步验收目标：确认模板使用者能从四份文档直接看出“问题 -> 目标 -> 用户流程 -> 核心工作流 -> 验证 -> 回滚”的闭环
+- 下一切片：如有需要，补第二套不同类型项目样例，例如内容型站点或工具型内部平台
+- 下一步验收目标：确认不同项目类型都能在 `reference/examples/` 中找到可参考的落地样例
 - 是否进入后端开发：否
 
 ## 最近一次验证
 
-- 手动验证：已检查 `PRD.md` 的问题、目标、非目标、流程、验收和回滚字段与 `AGENTS.md`、`ARCH.md` 的职责说明相互呼应
+- 手动验证：已检查 `reference/examples/README.md` 与 `minimal-saas` 示例目录结构和内容一致
 - lint：未运行，当前仓库无统一 lint 入口
 - typecheck：未运行，当前切片主要为文档和 Python 脚本
 - test：未运行，本次切片为文档模板更新
