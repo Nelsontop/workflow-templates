@@ -2,14 +2,16 @@
 
 ## 当前阶段
 
-- 当前目标：让 `reference/examples/` 对使用者更易读，能直接指导如何复用示例
-- 当前切片：新增 `reference/examples/README.md`，说明示例目录的用途、阅读顺序和复用方式
+- 当前目标：让 `reference/examples/` 同时覆盖“完整 SaaS 示例”和“个人最小 MVP 示例”
+- 当前切片：新增 `reference/examples/minimal-mvp/`，提供更适合个人快速验证想法的样例
 - 允许修改的文件：`reference/examples/**`、`project_state.md`
 - 当前端别：前端
 - 是否已完成前端确认：不适用
 
 ## 已完成
 
+- 新增 `reference/examples/minimal-mvp/`，提供一套去掉复杂能力、只保留最小验证闭环的 `PRD.md`、`ARCH.md`、`project_state.md`
+- 更新 `reference/examples/README.md`，说明 `minimal-saas` 与 `minimal-mvp` 的适用差异
 - 新增 `reference/examples/README.md`，说明示例目录的用途、推荐阅读顺序和复用检查清单
 - 新增 `reference/examples/minimal-saas/`，提供一套围绕轻量 SaaS 场景的完整示例 `PRD.md`、`ARCH.md`、`project_state.md`
 - 用示例演示“用户流程 -> 核心工作流 -> 验证 -> 回滚”的完整填写方式
@@ -35,13 +37,13 @@
 
 ## 下一步
 
-- 下一切片：如有需要，补第二套不同类型项目样例，例如内容型站点或工具型内部平台
-- 下一步验收目标：确认不同项目类型都能在 `reference/examples/` 中找到可参考的落地样例
+- 下一切片：如有需要，再补内容型站点或工具型内部平台样例
+- 下一步验收目标：确认使用者能根据项目复杂度在 `minimal-mvp` 和 `minimal-saas` 之间快速选型
 - 是否进入后端开发：否
 
 ## 最近一次验证
 
-- 手动验证：已检查 `reference/examples/README.md` 与 `minimal-saas` 示例目录结构和内容一致
+- 手动验证：已检查 `minimal-mvp` 三份文档与 `README.md` 的定位说明一致，且复杂度明显低于 `minimal-saas`
 - lint：未运行，当前仓库无统一 lint 入口
 - typecheck：未运行，当前切片主要为文档和 Python 脚本
 - test：未运行，本次切片为文档模板更新

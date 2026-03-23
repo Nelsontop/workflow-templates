@@ -28,6 +28,22 @@
 - `reference/examples/minimal-saas/ARCH.md`
 - `reference/examples/minimal-saas/project_state.md`
 
+### `minimal-mvp`
+
+一个更轻的个人验证场景示例，主题是“把一个想法快速整理成可分享页面”。
+
+适合你参考它的情况：
+
+- 你是单人开发，想先验证一个想法是否值得继续
+- 你不想一开始就做登录、后台、复杂权限和数据库
+- 你需要的是“足够表达价值”的最小闭环，而不是可长期演进的平台
+
+包含文件：
+
+- `reference/examples/minimal-mvp/PRD.md`
+- `reference/examples/minimal-mvp/ARCH.md`
+- `reference/examples/minimal-mvp/project_state.md`
+
 ## 推荐阅读顺序
 
 1. 先读示例 `PRD.md`
@@ -36,6 +52,9 @@
    看这些用户流程如何被翻译成核心工作流、handoff 契约、验证矩阵和回滚方式。
 3. 最后读示例 `project_state.md`
    看一个真实切片如何记录“当前做什么、已完成什么、下一步做什么”。
+
+如果你只想快速验证个人想法，优先看 `minimal-mvp`。
+如果你要做一个更完整的 Web 产品，再看 `minimal-saas`。
 
 ## 如何把示例用到你自己的项目
 
@@ -56,3 +75,4 @@
 - 新增示例时，优先选择和现有示例差异明显的场景
 - 每个示例都应保持 `PRD.md`、`ARCH.md`、`project_state.md` 三件套
 - 如果新增的是移动端、原生端或强后端场景，应突出为什么它和 `minimal-saas` 的边界不同
+- 如果新增的是个人验证类项目，应像 `minimal-mvp` 一样主动删掉不影响验证速度的复杂能力
