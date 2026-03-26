@@ -1,55 +1,57 @@
-# Project State Template
+# Project State
 
 ## 当前阶段
 
-- 当前目标：为 `reference/examples/` 增加一套偏运营后台的样例
-- 当前切片：新增 `reference/examples/content-ops-platform/`，覆盖内容矩阵运营台场景
-- 允许修改的文件：`reference/examples/**`、`project_state.md`
-- 当前端别：前端
+- 当前目标：将工作流模板重构为 docs-first、agent-first 的知识与计划结构
+- 当前切片：完成根目录瘦身、`docs/` 知识树落地和计划流转重构
+- 当前计划：`docs/exec-plans/completed/2026-03-26-docs-first-template-restructure.md`
+- 允许修改的文件：`AGENTS.md`、`CLAUDE.md`、`ARCHITECTURE.md`、`project_state.md`、`docs/**`
+- 当前端别：模板基础设施
 - 是否已完成前端确认：不适用
 
 ## 已完成
 
-- 新增 `reference/examples/content-ops-platform/`，提供内容矩阵运营后台样例，覆盖内容流转、发布任务、接口预留和状态回填
-- 更新 `reference/examples/README.md`，补充内容运营后台样例的适用场景
-- 新增 `reference/examples/minimal-mvp/`，提供一套去掉复杂能力、只保留最小验证闭环的 `PRD.md`、`ARCH.md`、`project_state.md`
-- 更新 `reference/examples/README.md`，说明 `minimal-saas` 与 `minimal-mvp` 的适用差异
-- 新增 `reference/examples/README.md`，说明示例目录的用途、推荐阅读顺序和复用检查清单
-- 新增 `reference/examples/minimal-saas/`，提供一套围绕轻量 SaaS 场景的完整示例 `PRD.md`、`ARCH.md`、`project_state.md`
-- 用示例演示“用户流程 -> 核心工作流 -> 验证 -> 回滚”的完整填写方式
-- 同步更新 `AGENTS.md`，让主规则明确新版 PRD 要包含问题证据、成功指标、非目标、开放问题和发布回滚口径
-- 补充 `PRD.md` 的流程映射、切片验收与发布回滚字段，使其与新版 `ARCH.md` 的工作流和验证矩阵对齐
-- 同步更新 `AGENTS.md` 与 `CLAUDE.md`，补充 `ARCH.md` 的 ADR、工作流、handoff 契约、失败恢复与结构化验证要求
-- 重构 `ARCH.md`，补充架构选型取舍、ADR、运行时拓扑、核心工作流、失败恢复、handoff 契约与验证矩阵
-- 强化 `ARCH.md` 与 PRD 的对齐要求，增加目标映射、非目标边界和风险跟踪
-- 重构 `PRD.md`，补充问题证据、成功指标、非目标、开放问题、发布与回滚等产品章节
-- 保留前后端范围拆分、默认目录骨架和前端优先开发顺序
-- 删除 `reference/theme.ts`
-- 同步更新 `AGENTS.md` 目录结构，移除 `theme.ts` 引用
-- 新增 `reference/agency/upstream/`，保存筛选后的 agency Markdown 快照
-- 新增 `reference/agency/build_index.py`，支持索引生成与关键词查询
-- 新增 `reference/agency/index.json` 与 `reference/agency/README.md`
-- 补充模板规则：agency 索引为第二优先级，仅在未明确命中本地技能时加载
+- 新增根目录 `ARCHITECTURE.md` 作为高层架构地图
+- 将原根目录 `PRD.md` 迁移为 `docs/product-specs/prd.md`
+- 将原根目录 `ARCH.md` 的长期约束拆分进 `ARCHITECTURE.md` 与 `docs/**`
+- 将 `AGENTS.md` 重写为薄入口、文档路由与执行协议
+- 将 `CLAUDE.md` 收缩为兼容入口
+- 新增 `docs/index.md`、`docs/PLANS.md`、`docs/PRODUCT_SENSE.md`、`docs/QUALITY_SCORE.md`、`docs/RELIABILITY.md`、`docs/SECURITY.md`
+- 新增 `docs/DESIGN.md`、`docs/FRONTEND.md`
+- 新增 `docs/design-docs/index.md` 与 `docs/design-docs/core-beliefs.md`
+- 新增 `docs/exec-plans/tech-debt-tracker.md`
+- 记录本次重构计划到 `docs/exec-plans/completed/2026-03-26-docs-first-template-restructure.md`
+- 将 `reference/examples` 与 `reference/agency` 迁移到 `docs/references/`
+- 清空 `docs/references/examples/` 下的全部示例文件，并转移到 trash
+- 将旧根文档 `PRD.md`、`ARCH.md` 移到 `/vol3/1000/workspace/trash/vibe-coding-standard-2026-03-26/`
 
 ## 已知问题
 
-- 问题描述：上游快照不会自动同步，需要手动重新抓取并重建索引
-- 影响范围：`reference/agency`
+- 问题描述：仓库内若存在依赖旧 `reference/` 路径的脚本、测试或外部引用，当前未做全量修复
+- 影响范围：`tests/reference/**` 及潜在外部文档链接
+- 是否阻塞当前切片：否
+
+- 问题描述：文档导航、链接完整性和知识新鲜度仍未做自动检查
+- 影响范围：`AGENTS.md`、`ARCHITECTURE.md`、`docs/**`
+- 是否阻塞当前切片：否
+
+- 问题描述：`docs/index.md` 仍将 `references/` 描述为包含示例，但 `docs/references/examples/` 已清空
+- 影响范围：`docs/index.md`、后续模板说明
 - 是否阻塞当前切片：否
 
 ## 下一步
 
-- 下一切片：如有需要，再补纯内容平台或创作者前台类样例
-- 下一步验收目标：确认使用者能根据项目类型在 `minimal-mvp`、`minimal-saas` 和 `content-ops-platform` 之间快速选型
+- 下一切片：补文档完整性检查与旧路径迁移清单
+- 下一步验收目标：确保 `docs/` 新路径可被自动化检查，且没有遗留旧入口漂移
 - 是否进入后端开发：否
 
 ## 最近一次验证
 
-- 手动验证：已检查 `content-ops-platform` 三份文档与 `README.md` 的定位说明一致，且突出了统一发布接口和本地技能/CLI 调用边界
+- 手动验证：已检查根目录入口、`docs/` 目录树、计划文件、`docs/references/agency/README.md` 路径示例，以及 `docs/references/examples/` 已无文件残留
 - lint：未运行，当前仓库无统一 lint 入口
-- typecheck：未运行，当前切片主要为文档和 Python 脚本
-- test：未运行，本次切片为文档模板更新
-- regression：已用生成后的 `index.json` 抽查字段结构
+- typecheck：未运行，本次切片主要为文档模板重构
+- test：未运行，本次切片主要为文档与目录迁移
+- regression：已抽查 `docs/index.md`、`docs/product-specs/prd.md`、`docs/design-docs/core-beliefs.md`、`docs/exec-plans/completed/2026-03-26-docs-first-template-restructure.md`
 - preflight：不适用
 - commit：未提交
 - 前端确认记录：不适用

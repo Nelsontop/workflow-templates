@@ -12,7 +12,7 @@
 ## 目录结构
 
 ```text
-reference/agency/
+docs/references/agency/
 ├── README.md
 ├── build_index.py
 ├── index.json
@@ -29,15 +29,15 @@ reference/agency/
 ## 索引生成
 
 ```bash
-python3 reference/agency/build_index.py build \
-  --upstream-dir reference/agency/upstream \
-  --output reference/agency/index.json
+python3 docs/references/agency/build_index.py build \
+  --upstream-dir docs/references/agency/upstream \
+  --output docs/references/agency/index.json
 ```
 
 ## 索引查询
 
 ```bash
-python3 reference/agency/build_index.py search "react dashboard ui" --limit 3
+python3 docs/references/agency/build_index.py search "react dashboard ui" --limit 3
 ```
 
 查询结果只返回候选文档元数据。真正加载时，应再按结果读取对应的 `.md` 文件内容。
@@ -45,7 +45,7 @@ python3 reference/agency/build_index.py search "react dashboard ui" --limit 3
 ## 推荐加载流程
 
 1. 先判断当前请求是否已明确命中本地技能。
-2. 若未命中，再查询 `reference/agency/index.json`。
+2. 若未命中，再查询 `docs/references/agency/index.json`。
 3. 选择最相关的 1 到 3 个文档。
 4. 只在当前任务中临时读取这些文档。
 5. 任务结束后，不把这些内容当作持久上下文继续携带。
